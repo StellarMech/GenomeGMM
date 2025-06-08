@@ -10,7 +10,6 @@ install.package("devtools")
 - Secondly, you should intsall GenomeGMM-main.zip from [GenomeGMM](https://github.com/StellarMech/GenomeGMM)
   - way: unzip in your folder and directly install it
     ```R
-     install.packages("devtools")
      library(devtools)
      install()
     ```
