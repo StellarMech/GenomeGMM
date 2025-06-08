@@ -7,22 +7,10 @@ This package provides a function to estimate polyploid genome size using a Gauss
 ```R
 install.package("devtools")
 ```
-- Secondly, you have two ways to intsall  GenomeGMM
-  - way 1 : install with a local copy
-    - 1.1 download a zipped  GenomeGMM and create a tar.gz
-      ```linux
-      cd path/to/target/folder
-      wget 
-      unzip master.zip
-      tar -czvf 
-        ```
-    - 1.2 install under R
-      ```R
-       install.packages("")
-       q("no")
-      ```
-  - way 2 : directly install from github
+- Secondly, you should intsall GenomeGMM-main.zip from [GenomeGMM](https://github.com/StellarMech/GenomeGMM)
+  - way: unzip in your folder and directly install it
     ```R
      install.packages("devtools")
-     devtools::install_github("")
+     library(devtools)
+     install()
     ```
