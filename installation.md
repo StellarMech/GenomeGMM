@@ -5,7 +5,7 @@ This package provides a function to estimate polyploid genome size using a Gauss
 ## 2. Installation
 - First of all, you need install dependencies required by  GenomeGMM under R, if you do not have them yet. Open a **R terminal**,
 ```R
-install.package("devtools")
+install.packages("devtools")
 ```
 - Secondly, you should intsall GenomeGMM-main.zip from [GenomeGMM](https://github.com/StellarMech/GenomeGMM)
   - way: unzip in your folder and directly install it
